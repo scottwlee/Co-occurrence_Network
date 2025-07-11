@@ -20,7 +20,7 @@ asv_by_cluster <- lapply(cluster_list, function(sra_ids) {
   asv_table[, sra_ids, drop = FALSE]
 })
 
-# ✅ Coastal 데이터 선택
+# Coastal 데이터 선택
 asv_coastal <- asv_by_cluster$coastal
 
 
