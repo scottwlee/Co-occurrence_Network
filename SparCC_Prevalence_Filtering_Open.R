@@ -20,7 +20,7 @@ asv_by_cluster <- lapply(cluster_list, function(sra_ids) {
   asv_table[, sra_ids, drop = FALSE]
 })
 
-# ✅ Open 데이터 선택
+# Open 데이터 선택
 asv_open <- asv_by_cluster$open
 
 
